@@ -11,7 +11,7 @@ List| Things to do
 8 | How to execute the python code.
 
 
-#Who is Ronald Fisher
+# 1 Who is Ronald Fisher
 
 This is an image of Ronald Fisher
 ![Image of Fisher](RFisher.JPG)
@@ -29,4 +29,6 @@ He started working as a statistician at an insurance company in 1913. After a br
 Thus, his early experiences in the University of Cambridge shaped his interest in the field of population genetics. He was known as the best biologist since Charles Darwin. He published 7 books and almost 400 academic research papers in the fields of statistics and genetics.
 Fisher suffered from colon cancer and died aged 72 on July 29, 1962, in Adelaide, Australia following a surgery for the same. He was cremated in St. Peter's Cathedral, Adelaide.
 Now, we will have a look at his most noteworthy contributions to statistics.
+
+# 2 What is the Iris Dataset
 
