@@ -1,6 +1,6 @@
 # FinalProject
 
-##List Things to do 
+## List Things to do 
 
 1. Who is Ronald Fisher
 2. What is the Iris Dataset
@@ -54,6 +54,7 @@ The data was used by the celebrated British statistician Ronald Fisher in 1936. 
 
 ## 5 How Many rows are in the dataset
 
+#### Referance :- https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis
 I found this out by importing a few libraries and then reading in the dataset from a CSV file (FisherDS.csv) stored on my Laptop.
 I used the python code below and displayed the number of rows using print(dataset.shape).
 the out come was **150** rows and it also gave me the information of columns **5** in our case *(['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species'])*
