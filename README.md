@@ -32,3 +32,10 @@ Now, we will have a look at his most noteworthy contributions to statistics.
 
 # 2 What is the Iris Dataset
 
+# https://www.ritchieng.com/machine-learning-iris-dataset/
+The iris dataset contains the following data
+50 samples of 3 different species of iris (150 samples total)
+Measurements: sepal length, sepal width, petal length, petal width
+The format for the data: (sepal length, sepal width, petal length, petal width)
+![Image of Flower measurments](Flower1.png)
+![Image of Different Flowers](Flower2.png)
