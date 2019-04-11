@@ -5,8 +5,8 @@
 1. Who is Ronald Fisher
 2. What is the Iris Dataset
 3. How was the data collected
-4. How Many rows are in the dataset
-5. What the dataset is and some interesting Facts
+4. Some interesting Facts about the dataset
+5. How Many rows are in the dataset
 6. Python code to Calculate Max, Min and mean of each column of the dataset.
 7. Summary of my findings
 8. How to execute the python code.
@@ -45,4 +45,30 @@ The format for the data: (sepal length, sepal width, petal length, petal width)
 
 #### Referance :-https://en.wikipedia.org/wiki/Iris_flower_data_set
 
-It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species.Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"
+It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species.Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus" it was collected  collected in Hawaii
+
+## 4 Some interesting Facts about the dataset
+
+#### Referance :-https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching
+The data was used by the celebrated British statistician Ronald Fisher in 1936. (Later he was knighted and became Sir Ronald.) At least some teachers like the idea of a dataset with a link to someone so well known within the field. The data were originally published by the statistically-minded botanist Edgar S. Anderson, but that earlier origin does not diminish the association.
+
+## 5 How Many rows are in the dataset
+
+I found this out by importing a few libraries and then reading in the dataset from a CSV file (FisherDS.csv) stored on my Laptop.
+I used the python code below and displayed the number of rows using print(dataset.shape).
+the out come was **150** rows and it also gave me the information of columns **5** in our case *(['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species'])*
+
+In [2]: import csv
+
+In [3]:  import pandas
+
+In [4]:  import matplotlib.pyplot as plt
+
+In [5]: url = "FisherDS.csv"
+
+In [6]: names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species']
+
+In [7]: dataset = pandas.read_csv(url, names=names)
+
+In [8]: print(dataset.shape)
+(150, 5)
