@@ -33,7 +33,7 @@ Now, we will have a look at his most noteworthy contributions to statistics.
 
 ## 2 What is the Iris Dataset
 
-#### https://www.ritchieng.com/machine-learning-iris-dataset/
+#### Referance :- https://www.ritchieng.com/machine-learning-iris-dataset/
 The iris dataset contains the following data
 50 samples of 3 different species of iris (150 samples total)
 Measurements: sepal length, sepal width, petal length, petal width
@@ -43,5 +43,6 @@ The format for the data: (sepal length, sepal width, petal length, petal width)
 
 ## 3 How was the data collected
 
-####https://en.wikipedia.org/wiki/Iris_flower_data_set
+#### Referance :-https://en.wikipedia.org/wiki/Iris_flower_data_set
+
 It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species.Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus"
