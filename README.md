@@ -78,21 +78,21 @@ In [8]: print(dataset.shape)
 
 ### Mean
 I used the following code to calculate the mean of each column:-
-#import the required library
+#### import the required library
 **import csv**
 **pandas as pd**
 **import matplotlib.pyplot as plt**
 
-#create a dotted line seperator for visual effect
+#### create a dotted line seperator for visual effect
 **def print_dotted_line():**
     **print('\n','-'*80,'\n')**
 
-#import the csv and read in to panda
+#### import the csv and read in to panda
 **url = "FisherDS.csv"**
 **names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species']**
 **dataset = pd.read_csv(url, names=names)**
 
-#get the mean of each column
+##### get the mean of each column
 **print(dataset.mean())**
 
 The output:-
