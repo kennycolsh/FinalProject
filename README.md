@@ -75,3 +75,29 @@ In [8]: print(dataset.shape)
 (150, 5)
 
 ## 6 Python code to Calculate Max, Min and mean of each column of the dataset.
+
+### Mean
+I used the following code to calculate the mean of each column:-
+#import the required library
+**import csv**
+**pandas as pd**
+**import matplotlib.pyplot as plt**
+
+#create a dotted line seperator for visual effect
+**def print_dotted_line():**
+    **print('\n','-'*80,'\n')**
+
+#import the csv and read in to panda
+**url = "FisherDS.csv"**
+**names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species']**
+**dataset = pd.read_csv(url, names=names)**
+
+#get the mean of each column
+**print(dataset.mean())**
+
+The output:-
+
+*sepal-length    5.843333*
+*sepal-width     3.054000*
+*petal-length    3.758667*
+*petal-width     1.198667*
