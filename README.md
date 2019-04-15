@@ -76,6 +76,8 @@ In [8]: print(dataset.shape)
 
 ## 6 Python code to Calculate Max, Min and mean of each column of the dataset.
 
+#### Referance :- https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html
+
 ### Mean
 I used the following code to calculate the mean of each column:-
 ##### import the required library
