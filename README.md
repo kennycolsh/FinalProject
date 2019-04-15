@@ -73,3 +73,5 @@ In [7]: dataset = pandas.read_csv(url, names=names)
 
 In [8]: print(dataset.shape)
 (150, 5)
+
+## 6 Python code to Calculate Max, Min and mean of each column of the dataset.
