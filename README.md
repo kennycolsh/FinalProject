@@ -102,7 +102,7 @@ Output:-
 *petal-length    3.758667,*
 *petal-width     1.198667*
 
-###Max
+### Max
 
 Code:-
 **print(dataset.max())**
@@ -113,3 +113,15 @@ Output:-
 *sepal-width      4.4*
 *petal-length     6.9*
 *petal-width      2.5*
+
+### Min
+
+Code:-
+**print(dataset.min())**
+
+Output:-
+
+*sepal-length       4.3*
+*sepal-width          2*
+*petal-length         1*
+*petal-width        0.1*

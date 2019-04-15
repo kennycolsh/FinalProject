@@ -16,8 +16,14 @@ dataset = pd.read_csv(url, names=names)
 
 #get the mean of each column
 print(dataset.mean())
+
 print_dotted_line()
+
 print(dataset.max())
+
+print_dotted_line()
+
+print(dataset.min())
 
 # shape--We can get a quick idea of how many instances (rows) and how many attributes 
 # (columns) the data contains with the shape property
