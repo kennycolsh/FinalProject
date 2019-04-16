@@ -140,5 +140,11 @@ Output:-
 
 ## 8 How to execute the python code.
 
+1. Enter Iris-Fisher.py followed by 1 for MEAN
+2. Enter Iris-Fisher.py followed by 2 for MAX
+3. Enter Iris-Fisher.py followed by 3 for MIN
+4. Enter Iris-Fisher.py followed by 1 for Number of rows and columns
+5. Enter Iris-Fisher.py followed by 1 for Histogram
+
 ## 9 Summary of my findings
 
