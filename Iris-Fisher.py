@@ -15,14 +15,19 @@ names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species'
 dataset = pd.read_csv(url, names=names)
 
 #get the mean of each column
+print("MEAN")
 print(dataset.mean())
 
 print_dotted_line()
 
+#print the max of all the columns
+print("MAX")
 print(dataset.max())
 
 print_dotted_line()
 
+#print the MIN of all the columns
+print("MIN")
 print(dataset.min())
 
 # shape--We can get a quick idea of how many instances (rows) and how many attributes 
@@ -31,21 +36,12 @@ print_dotted_line()
 print(dataset.shape)
 
 
-print_dotted_line()
-# descriptions This includes the count, mean,
-# the min and max values as well as some percentiles.
-print(dataset.describe())
-print_dotted_line()
-# species distribution
-print(dataset.groupby('species').size())
-print_dotted_line()
+
+
+
 # histograms
-#dataset.hist()
-#plt.show()
+dataset.hist()
+plt.show()
 
-
-#Mean the whole dataset:
-#print( dataset.mean())
 print_dotted_line()
 
-#print(dataset.sepal-length.groupby([dataset['sepal-length']]).mean().sort_values(ascending=False))
