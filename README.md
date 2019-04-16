@@ -137,6 +137,10 @@ Output:-
 
 ![Image of Histogram](Hist.PNG)
 
+#### Mean Class Plot
+
+![Image of Mean Class](MeanClass.PNG)
+
 
 ## 8 How to execute the python code.
 
