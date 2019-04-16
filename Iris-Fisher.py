@@ -3,7 +3,7 @@
 #import the required library
 import csv
 import pandas as pd
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as pl
 import sys
 
 #create a dotted line seperator for visual effect
@@ -13,6 +13,7 @@ def print_dotted_line():
 
 print(f"This script is called {sys.argv[0]}.\n")
 
+
 if len(sys.argv) !=2:
     print("You should select a number between 1 and 5")
 else:
@@ -20,7 +21,7 @@ else:
     url = "FisherDS.csv"
     names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'species']
     dataset = pd.read_csv(url, names=names)
-    
+
     if sys.argv[1] == '1':
         print("MEAN")#get the mean of each column
         print(dataset.mean())
@@ -44,8 +45,24 @@ else:
     if sys.argv[1] == '5':
         print("Histogram")
         dataset.hist()
-        plt.show()
+        pl.show()
         print_dotted_line()
+
+    if sys.argv[1] == '6':
+        print("Group and the mean of petal-length")
+        grouped = dataset.groupby(['species'])
+        print(grouped['petal-length'].mean().sort_values(ascending=False))
+        #plot the graph and create the label
+        pl.plot(grouped['petal-length'].mean())
+        #give it grid lines
+        pl.grid()
+        #add legends to make it more readable
+        pl.legend()
+        #give the graph a title
+        pl.title('petal-length by class')
+        #show the Plot
+        pl.show()
+      
 
 
 
