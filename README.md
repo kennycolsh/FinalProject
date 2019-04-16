@@ -135,4 +135,4 @@ Output:-
 *dataset.hist()*
 *plt.show()*
 
-![Image of Histogram](Hist.png)
+![Image of Histogram](Hist.PNG)
