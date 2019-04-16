@@ -9,8 +9,8 @@
 5. How Many rows are in the dataset
 6. Python code to Calculate Max, Min and mean of each column of the dataset.
 7. Add a graph
-8. Summary of my findings
-9. How to execute the python code.
+8. How to execute the python code.
+9. Summary of my findings
 
 
 ## 1 Who is Ronald Fisher
@@ -131,8 +131,14 @@ Output:-
 
 ## 7 Add a graph
 
-#### histograms
+#### Histograms
 *dataset.hist()*
 *plt.show()*
 
 ![Image of Histogram](Hist.PNG)
+
+
+## 8 How to execute the python code.
+
+## 9 Summary of my findings
+
