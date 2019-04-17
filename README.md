@@ -157,3 +157,27 @@ Output:-
 
 ## 9 Summary of my findings
 
+#### Referance :- https://www.ibm.com/communities/analytics/watson-analytics-blog/watson-analytics-use-case-the-iris-data-set/
+
+![Image of P-Length and P-Width Mean Class](LenWid.PNG)
+
+Group and the mean of petal-length
+species
+virginica     5.552
+versicolor    4.260
+setosa        1.464
+
+Group and the mean of petal-width
+species
+virginica     2.026
+versicolor    1.326
+setosa        0.244
+
+When I chose petal-length by class, we can see each species has a different average petal length.
+When I chose “What is the relationship between petal-length and petal-width by class,”
+I saw how average petal length and width group the flowers into the three distinct classes of 
+setosa, versicolor, and virginica. 
+
+By using this plot you can see the clear distinction between the three species.
+
+
