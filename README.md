@@ -141,6 +141,8 @@ Output:-
 
 ![Image of Mean Class](MeanClass.PNG)
 
+#### P-Length and P-Width Mean Plot
+
 ![Image of P-Length and P-Width Mean Class](LenWid.PNG)
 
 
