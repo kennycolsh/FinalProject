@@ -144,12 +144,12 @@ Output:-
 
 ## 8 How to execute the python code.
 
-1. Enter Iris-Fisher.py followed by 1 for MEAN
-2. Enter Iris-Fisher.py followed by 2 for MAX
-3. Enter Iris-Fisher.py followed by 3 for MIN
-4. Enter Iris-Fisher.py followed by 4 for Number of rows and columns
-5. Enter Iris-Fisher.py followed by 5 for Histogram
-6. Get the mean of petal-length grouped by Species
+1. Enter Iris-Fisher.py followed by 1 into Cmder for MEAN
+2. Enter Iris-Fisher.py followed by 2 into Cmder for MAX
+3. Enter Iris-Fisher.py followed by 3 into Cmder for MIN
+4. Enter Iris-Fisher.py followed by 4 into Cmder for Number of rows and columns
+5. Enter Iris-Fisher.py followed by 5 into Cmder for Histogram
+6. Enter Iris-Fisher.py followed by 5 into Cmder Get the mean of petal-length grouped by Species
 
 ## 9 Summary of my findings
 

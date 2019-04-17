@@ -52,12 +52,16 @@ else:
         print("Group and the mean of petal-length")
         grouped = dataset.groupby(['species'])
         print(grouped['petal-length'].mean().sort_values(ascending=False))
+
+        print("Group and the mean of petal-width")
+        print(grouped['petal-width'].mean().sort_values(ascending=False))
         #plot the graph and create the label
-        pl.plot(grouped['petal-length'].mean())
+        pl.plot(grouped['petal-length'].mean(), label="P-Length", linestyle='--')
+        pl.plot(grouped['petal-width'].mean(), label="p-Width", linestyle='--')
         #give it grid lines
         pl.grid()
         #add legends to make it more readable
-        pl.legend()
+        pl.legend( loc=4)
         #give the graph a title
         pl.title('petal-length by class')
         #show the Plot
