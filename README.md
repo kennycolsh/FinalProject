@@ -141,6 +141,8 @@ Output:-
 
 ![Image of Mean Class](MeanClass.PNG)
 
+![Image of P-Length and P-Width Mean Class](LenWid.PNG)
+
 
 ## 8 How to execute the python code.
 
@@ -149,7 +151,7 @@ Output:-
 3. Enter Iris-Fisher.py followed by 3 into Cmder for MIN
 4. Enter Iris-Fisher.py followed by 4 into Cmder for Number of rows and columns
 5. Enter Iris-Fisher.py followed by 5 into Cmder for Histogram
-6. Enter Iris-Fisher.py followed by 5 into Cmder Get the mean of petal-length grouped by Species
+6. Enter Iris-Fisher.py followed by 5 into Cmder Get the mean of petal-length/petal-width grouped by Species
 
 ## 9 Summary of my findings
 
